@@ -1,0 +1,28 @@
+SalonBookingApp-Microservices
+A Java Spring Boot microservices-based application designed for managing salon bookings with a scalable, modular architecture. Each service is independently deployable and communicates via REST APIs, making the system flexible and easy to extend. Key Features User Service – Handles user registration, authentication, and profile management.
+
+Salon Service – Manages salon details, services offered, and availability.
+
+Booking Service – Enables customers to book appointments and track reservations.
+
+Payment Service – Integrates secure payment processing for bookings.
+
+Notification Service – Sends email/SMS notifications for confirmations and reminders.
+
+Review Service – Allows customers to provide ratings and feedback.
+
+Category & Service Offering Services – Organize salon services into categories for easy browsing.
+
+Gateway Server – Acts as an API gateway, routing requests to appropriate services.
+
+Eureka Server – Service discovery for dynamic scaling and load balancing.
+
+Docker Compose – Containerized deployment for all microservices.
+
+🛠️ Tech Stack Backend: Java, Spring Boot, Spring Cloud
+
+Database: MySQL / PostgreSQL
+
+Authentication: Keycloak (for role-based access control)
+
+DevOps: Docker, Docker Compose, Jenkins, SonarQube
